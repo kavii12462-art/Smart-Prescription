@@ -1,0 +1,6 @@
+medicine1,medicine2,interaction
+aspirin,ibuprofen,Avoid taking together. Increased risk of stomach bleeding.
+paracetamol,ibuprofen,Generally safe when taken as prescribed.
+amoxicillin,cetirizine,No significant interaction.
+aspirin,paracetamol,Use only under medical advice.
+ibuprofen,amoxicillin,No significant interaction.

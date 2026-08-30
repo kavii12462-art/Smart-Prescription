@@ -1,0 +1,151 @@
+/* ================= GENERAL ================= */
+
+body{
+    background: linear-gradient(to right,#eef7ff,#f8fbff);
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background:#0d6efd !important;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    font-size:18px;
+    margin-left:10px;
+}
+
+.nav-link:hover{
+    color:#ffe082 !important;
+}
+
+/* ================= CONTAINER ================= */
+
+.container{
+    margin-top:40px;
+}
+
+/* ================= TITLES ================= */
+
+h1{
+    font-weight:bold;
+    color:#0d6efd;
+}
+
+h2{
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+h4{
+    font-weight:bold;
+}
+
+/* ================= CARDS ================= */
+
+.card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* ================= BUTTONS ================= */
+
+.btn{
+    border-radius:10px;
+    font-size:17px;
+    font-weight:bold;
+    padding:10px 20px;
+}
+
+.btn-primary:hover{
+    transform:scale(1.03);
+}
+
+.btn-success:hover{
+    transform:scale(1.03);
+}
+
+.btn-danger:hover{
+    transform:scale(1.03);
+}
+
+/* ================= FORM ================= */
+
+.form-control,
+.form-select{
+    border-radius:10px;
+}
+
+/* ================= LIST ================= */
+
+.list-group-item{
+    font-size:18px;
+    font-weight:500;
+}
+
+/* ================= ALERT BOX ================= */
+
+.alert{
+    border-radius:12px;
+}
+
+/* ================= IMAGE ================= */
+
+img{
+    max-width:100%;
+    border-radius:15px;
+    margin-top:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    margin-top:50px;
+    padding:30px;
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+}
+
+footer h5{
+    font-weight:bold;
+}
+
+footer p{
+    margin:5px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .navbar-brand{
+        font-size:22px;
+    }
+
+    .card{
+        margin-bottom:20px;
+    }
+
+}
